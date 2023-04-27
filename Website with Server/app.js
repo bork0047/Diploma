@@ -191,17 +191,27 @@ app.get("/logout", function (req, res) {
 
 app.get('', (req, res) => {
     //run the main page
-    res.render('login')
+    res.render('index')
 })
 
-app.get('/login', (req, res) => {
+app.get('/home', (req, res) => {
     //run the login.ejs page
-    res.render('login')
+    res.render('home')
 })
 
-app.get('/register', (req, res) => {
+app.get('/home2', (req, res) => {
+    //run the thanks.ejs page
+    res.render('home2')
+})
+
+app.get('/home3', (req, res) => {
+    //run the thanks.ejs page
+    res.render('home3')
+})
+
+app.get('/about', (req, res) => {
     //run the register.ejs page
-    res.render('register')
+    res.render('about')
 })
 //1906490
 app.get('/index', (req, res) => {
@@ -209,10 +219,46 @@ app.get('/index', (req, res) => {
     res.render('index')
 })
 
-app.get('/thanks', (req, res) => {
+app.get('/quiz', (req, res) => {
     //run the thanks.ejs page
-    res.render('thanks')
+    res.render('quiz')
 })
+
+app.get('/quiz2', (req, res) => {
+    //run the thanks.ejs page
+    res.render('quiz2')
+})
+
+app.get('/quiz3', (req, res) => {
+    //run the thanks.ejs page
+    res.render('quiz3')
+})
+
+app.get('/final', (req, res) => {
+    //run the thanks.ejs page
+    res.render('final')
+})
+
+app.get('/change-password', (req, res) => {
+    //run the thanks.ejs page
+    res.render('change-password')
+})
+
+app.get('/login', (req, res) => {
+    //run the thanks.ejs page
+    res.render('login')
+})
+
+app.get('/register', (req, res) => {
+    //run the thanks.ejs page
+    res.render('register')
+})
+
+app.get('/tests', (req, res) => {
+    //run the thanks.ejs page
+    res.render('tests')
+})
+
 
 function isLoggedIn(req, res, next) {
     if (req.isAuthenticated()) return next();
