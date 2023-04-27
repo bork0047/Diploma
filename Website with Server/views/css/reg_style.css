@@ -1,0 +1,114 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  input[type=text],
+  input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  input[type=submit] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .container {
+    padding: 16px;
+    width: 50%;
+    background-color: #f2f2f2;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #reg-form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #username,
+  #password {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  
+  #username:focus,
+  #password:focus {
+    outline: none;
+    border: 2px solid #4caf50;
+  }
+  
+  #reg-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 16px;
+    font-size: 1.5rem;
+  }
+  
+  #reg-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #reg-form input[type="submit"]:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+  }
+  
+  #reg-form input[type="submit"]:focus {
+    outline: none;
+  }
+  .proceed-btn {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
