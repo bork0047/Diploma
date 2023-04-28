@@ -1,112 +1,110 @@
 let questions = [
     {
         id: 1,
-        question: "What is NOT a basic programming concept?",
-        answer:"Images",
+        question: "What an array?",
+        answer:"A List",
         options: [
-            "Integer",
-            "String",
-            "Images",
-            "Boolean"
+            "Just a bunch of stuff",
+            "A programming class",
+            "A List",
+            "Integer"
         ]   
     },
     {
         id: 2,
-        question: "Which of these is a basic programming construct",
-        answer: "All of them",
+        question: "How should you create an array in Java?",
+        answer: "dataType [] nameOfArray = new dataType [size]",
         options: [
-          "Sequence",
-          "Selection",
-          "Iteration ",
+          "Array list = Array",
+          "list []",
+          "dataType [] nameOfArray = new dataType [size]",
           "All of them"
         ]
       },
       {
         id: 3,
-        question: "What is the Full-Form of E-mail",
-        answer: "Electronic Mail",
+        question: "What is very important to put in the end of lines in Java?",
+        answer: ";",
         options: [
-          "Electronic Mail",
-          "Electric Mail",
-          "Engine Mail",
+          "A dot",
+          ":",
+          ";",
           "None of these"
         ]
       },
       {
         id: 4,
-        question: "'DB' in computer means?",
-        answer: "DataBase",
+        question: "Java is the...",
+        answer: "All of these",
         options: [
-          "Double Byte",
-          "Data Block",
-          "DataBase",
-          "None of these"
+          "Complicated Language",
+          "Hardest Language",
+          "Mean of creation",
+          "All of these"
         ]
       },
       {
         id: 5,
-        question: "What is FMD?",
-        answer: "Fluorescent Multi-Layer Disc",
+        question: "What should you do, when you make an array list",
+        answer: "Initialize the data stored before the array name",
         options: [
-          "Fluorescent Multi-Layer Disc",
-          "Flash Media Driver",
-          "Fast-Ethernet Measuring Device",
+          "Initialize the data stored before the array name",
+          "Initialize the data stored after the array name",
+          "Initialize the data type stored later on the code",
           "None of these"
         ]
       },
       {
         id: 6,
-        question: "How many bits is a byte?",
-        answer: "8",
+        question: "How many values can you put in array list?",
+        answer: "Any number",
         options: [
           "32",
           "16",
           "8",
-          "64"
+          "Any number"
         ]
       },
       {
         id: 7,
-        question: "A JPG stands for:",
-        answer: "A format for an image file",
+        question: "Can you make an array of images?",
+        answer: "No because it is not a data variable in Java.",
         options: [
-          "A format for an image file",
-          "A Jumper Programmed Graphic",
-          "A type of hard disk",
-          "A unit of measure for memory"
+          "Yes, because it is a data type.",
+          "No because it is not a data variable in Java.",
+          "Not enough space for them.",
         ]
       },
       {
         id: 8,
-        question: "Which was an early mainframe computer?",
+        question: "When you make an array list of [10] integer values, what does each value contain?",
         answer: "ENIAC",
         options: [
-          "ENIAC",
-          "EDVAC",
-          "UNIC",
-          "ABACUS"
+          "Nothing",
+          "A number from 1 to 10",
+          "A number from 0 to 9",
         ]
       },
       {
         id: 9,
-        question: "Main circuit board in a computer is:",
-        answer: "Mother board",
+        question: "How do you print text on a new line in java?",
+        answer: "System.out.println();",
         options: [
-          "Harddisk",
-          "Mother board",
-          "Microprocessor",
+          "PrintLine();",
+          "Console.out.println();",
+          "System.out.println();",
           "None of these"
         ]
       },
       {
         id: 10,
-        question: "ISP stands for:",
-        answer: "Internet Service Provider",
+        question: "What are arrays used for?",
+        answer: "All of the above",
         options: [
-          "Internet Survey Period",
-          "Integreted Service Provider",
-          "Internet Security Protocol",
-          "Internet Service Provider"
+          "Listing things",
+          "Making a list",
+          "Calculating or using lists of data",
+          "All of the above"
           
         ]
       },
